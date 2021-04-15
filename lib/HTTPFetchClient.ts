@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-unfetch';
-import type { HTTPClient, RequestOptions } from './HTTPClient';
+import { HTTPClient, RequestOptions } from './HTTPClient';
 
 interface FetchOptions {
   method: string;

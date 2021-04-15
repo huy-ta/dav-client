@@ -1,8 +1,7 @@
 import { xml2js } from 'xml-js';
-import type { MultiStatusResponse } from '../../types/XMLResponses';
-import type { DAVClient } from '../DAVClient';
-import { parse } from 'dav-parser';
-import type { CalendarEventObject } from 'dav-parser';
+import { MultiStatusResponse } from '../../types/XMLResponses';
+import { DAVClient } from '../DAVClient';
+import { CalendarEventObject, parse } from 'dav-parser';
 
 const BASE_PATH = '/calendars';
 export interface CalendarData {

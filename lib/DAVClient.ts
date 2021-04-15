@@ -1,5 +1,5 @@
 import urlJoin from 'url-join';
-import type { HTTPClient, RequestOptions } from './HTTPClient';
+import { HTTPClient, RequestOptions } from './HTTPClient';
 
 interface DAVClientConstructorOptions {
   baseURL: string;
